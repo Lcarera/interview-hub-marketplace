@@ -21,10 +21,10 @@ This plugin gives Claude contextual knowledge about the Interview Hub codebase s
 
 ```bash
 # Add this repo as a marketplace source
-claude plugin marketplace add lcarera/Interview-Hub-Plugin
+claude plugin marketplace add lcarera/interview_hub_plugin
 
 # Install the plugin
-claude plugin install interview-hub@Interview-Hub-Plugin
+claude plugin install interview-hub@interview_hub_plugin
 ```
 
 ### Via Desktop App
