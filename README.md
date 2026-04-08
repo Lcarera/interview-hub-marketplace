@@ -1,6 +1,6 @@
 # Interview Hub Marketplace
 
-A Claude Code marketplace that provides plugins with domain-specific skills for the [Interview Hub](https://github.com/lcarera/interview_hub) project.
+A proof-of-concept Claude Code marketplace that provides plugins with domain-specific skills for the [Interview Hub](https://github.com/lcarera/interview_hub) project.
 
 ## Available plugins
 
@@ -16,6 +16,15 @@ claude plugin marketplace add lcarera/interview-hub-marketplace
 
 # Install a plugin
 claude plugin install interview-hub-common-skills
+```
+
+## Creating your own plugin
+
+If you want to create your own Claude Code plugin, install the [plugin-dev](https://github.com/anthropics/claude-plugins-official) plugin. It includes skills and agents for scaffolding plugins, writing skills, creating hooks, and validating your plugin structure:
+
+```bash
+claude plugin marketplace add anthropics/claude-plugins-official
+claude plugin install plugin-dev
 ```
 
 ## Repository structure
