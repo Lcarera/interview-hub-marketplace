@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "interview-hub",
-      "source": "./"
+      "name": "interview-hub-common-skills",
+      "source": "plugins/interview-hub-common-skills"
     }
   ]
 }

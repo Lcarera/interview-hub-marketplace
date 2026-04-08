@@ -1,5 +1,5 @@
 {
-  "name": "interview-hub",
+  "name": "interview-hub-common-skills",
   "description": "Domain skills for the Interview Hub project: adding email types, creating Supabase migrations, running pre-PR checks, and debugging production issues on Cloud Run.",
   "version": "1.0.0",
   "author": {
