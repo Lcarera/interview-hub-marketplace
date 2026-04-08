@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "interview-hub-common-skills",
-      "source": "plugins/interview-hub-common-skills"
+      "source": "./plugins/interview-hub-common-skills"
     }
   ]
 }
