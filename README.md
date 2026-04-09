@@ -10,6 +10,8 @@ A proof-of-concept Claude Code marketplace that provides plugins with domain-spe
 
 ## Installation
 
+### Claude Code CLI
+
 ```bash
 # Add this marketplace
 claude plugin marketplace add lcarera/interview-hub-marketplace
@@ -17,6 +19,16 @@ claude plugin marketplace add lcarera/interview-hub-marketplace
 # Install a plugin
 claude plugin install interview-hub-common-skills
 ```
+
+### Claude Desktop
+
+1. Open **Customize** (bottom-left menu)
+2. Click **Add plugins**
+3. Select **Create plugin**
+4. Choose **Add marketplace**
+5. Paste the repository URL: `https://github.com/lcarera/interview-hub-marketplace`
+6. Go back to **Add plugins** — a new **Personal** tab will appear with the plugins from the marketplace
+7. Install the desired plugins from there
 
 ## Creating your own plugin
 
